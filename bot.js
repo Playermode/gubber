@@ -47,7 +47,10 @@ client.on("message", function(message) {
          var gubber3 = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/332029226012246016/499315129632948234/image0.jpg")
          message.channel.sendEmbed(gubber3);
-         break;          
+         break;
+    case "describeozzy":
+        message.channel.sendMessage("The most amazing, cutest, most gorgeous, sweetest, caring, bf in the universe")
+        break;          
   }
 });
 
@@ -68,6 +71,31 @@ client.on('message', message => {
     	message.reply('*woofs in valid*');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'amen') {
+    	message.reply('*gaymen 🙏*');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Amen') {
+    	message.reply('*Gaymen 🙏*');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'gaymen') {
+    	message.reply('*gaymen indeed 🙏*');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Gaymen') {
+    	message.reply('*Gaymen indeed 🙏*');
+  	}
+});
+
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
