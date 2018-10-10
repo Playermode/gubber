@@ -7,7 +7,7 @@ var fortunes = [
     "Woofs in yes",
     "Woofs in no",
     "Woofs in maybe",
-    "No thats a horrible idea why did you even ask that in the first place",
+    "Woofs in no thats a horrible idea why did you even ask that in the first place",
     "WOOFS IN YES THATS THE BEST IDEA I HAVE HEARD IN MY LIFE",
     "Lunax says yes so I say yes",
     "Lunax says no so I say no"
@@ -42,7 +42,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Trying to prevent my owner from falling the game");
+    client.user.setGame("Trying to prevent my owner from falling");
     client.user.setUsername("Gubber");
     console.log('Woof!');
 });
