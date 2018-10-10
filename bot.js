@@ -88,7 +88,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() {
-    client.user.setPresence('Trying to prevent my owner from falling', { type: 'Playing' });
+    client.user.setGame('Trying to prevent my owner from falling', { type: 'playing' });
     client.user.setUsername("Gubber"); 
     console.log('Woof!');
 });
