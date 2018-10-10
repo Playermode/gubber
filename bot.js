@@ -8,7 +8,6 @@ client.on('ready', function() {
     console.log('Woof!');
 });
 
-
 client.on('message', message => {
     if (message.content === 'jay') {
     	message.reply('*woofs in valid*');
