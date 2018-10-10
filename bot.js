@@ -87,7 +87,8 @@ client.on("message", function(message) {
   }
 });
 
-client.on('ready', function() { 
+client.on('ready', function() {
+    client.user.setGame("Woof!"); 
     client.user.setUsername("Gubber");
     console.log('Woof!');
 });
