@@ -13,6 +13,9 @@ var fortunes = [
     "Lunax says no so I say no"
 ]; 
 
+var dadjokes = [
+    "
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
@@ -88,7 +91,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Trying to prevent my owner from falling");
+    bot.user.setGame("Trying to prevent my owner from falling");
     client.user.setUsername("Gubber");
     console.log('I am ready!');
 });
