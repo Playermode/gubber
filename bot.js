@@ -12,7 +12,15 @@ var fortunes = [
     "Lunax says yes so I say yes",
     "Lunax says no so I say no"
 ]; 
+
+client.on("message", function(message) {
+  if (message.author.equals(client.user)) return;
   
+  if (message.content === "gubber") {
+    const gubberthegod = client.emojis.get("499405655485055004");                                 
+    message.react("472271704136089602");
+}     
+
   if (!message.content.startsWith(PREFIX)) return;
 
   var args = message.content.substring(PREFIX.length).split(" ");
@@ -23,11 +31,11 @@ var fortunes = [
       else message.channel.sendMessage("Please ask me an actual question");
       break;
     case "ocean man":
-     message.channel.sendMessage("Barks in OCEAN MAN TAKE ME BY THE HAND LEAD ME TO THE LAND THAT YOU UNDERSTAND")
-     break;
+        message.channel.sendMessage("Barks in OCEAN MAN TAKE ME BY THE HAND LEAD ME TO THE LAND THAT YOU UNDERSTAND")
+        break;
     case "gubber":
          var gubber = new Discord.RichEmbed()
-             .setImage("https://cdn.discordapp.com/attachments/386610342077267968/488904676327161867/886A99AC44170632B97B47C35A61A18F8E3D10F6.png")
+             .setImage("https://i.imgur.com/ZWNrGeS.png")
          message.channel.sendEmbed(gubber);
          break;         
   }
