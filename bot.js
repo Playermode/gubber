@@ -88,7 +88,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    bot.user.setGame("Trying to prevent my owner from falling");
+    clinet.user.setGame("trying to prevent my owner from falling");
     client.user.setUsername("Gubber");
     console.log('I am ready!');
 });
