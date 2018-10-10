@@ -13,9 +13,6 @@ var fortunes = [
     "Lunax says no so I say no"
 ]; 
 
-var dadjokes = [
-    "
-
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
