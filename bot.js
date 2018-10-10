@@ -170,5 +170,23 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Joy') {
+    	message.reply('Joey to Joy!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'lunax') {
+    	message.reply('Tragic shes gonna fall');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Lunax') {
+    	message.reply('Tragic shes gonna fall');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
