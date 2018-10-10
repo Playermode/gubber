@@ -141,6 +141,23 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Woof') {
+    	message.reply('**Woofs in hey thats my line 😔**');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'woof') {
+    	message.reply('**woofs in hey thats my line 😔**');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'WOOF') {
+    	message.reply('**WOOFS IN HEY THATS MY LINE 😔**');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
