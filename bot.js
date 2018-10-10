@@ -40,14 +40,44 @@ client.on("message", function(message) {
          break;
     case "gubber2":
          var gubber2 = new Discord.RichEmbed()
-             .setImage("https://cdn.discordapp.com/attachments/332029226012246016/499315177976496129/image0.jpg")
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499656297747185664/image0.png")
          message.channel.sendEmbed(gubber2);
          break;   
     case "gubber3":
          var gubber3 = new Discord.RichEmbed()
-             .setImage("https://cdn.discordapp.com/attachments/332029226012246016/499315129632948234/image0.jpg")
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499656424964751370/image0.png")
          message.channel.sendEmbed(gubber3);
          break;
+    case "gubber4":
+         var gubber4 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499656954143309824/unknown.png")
+         message.channel.sendEmbed(gubber4);
+         break;
+    case "gubber5":
+         var gubber5 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657016852348938/image0.png")
+         message.channel.sendEmbed(gubber5);
+         break;
+    case "gubber6":
+         var gubber6 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657253784387604/Lunax_dog_with_glasses.jpg")
+         message.channel.sendEmbed(gubber6);
+         break;
+    case "gubber7":
+         var gubber7 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657374093672455/image0.png")
+         message.channel.sendEmbed(gubber7);
+         break;
+    case "gubber8":
+         var gubber8 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657409938063370/image0.png")
+         message.channel.sendEmbed(gubber8);
+         break;  
+    case "gubber9":
+         var gubber9 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657443668918273/image0.png")
+         message.channel.sendEmbed(gubber9);
+         break;            
     case "describeozzy":
         message.channel.sendMessage("The most amazing, cutest, most gorgeous, sweetest, caring, bf in the universe")
         break;
