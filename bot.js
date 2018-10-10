@@ -88,7 +88,18 @@ client.on("message", function(message) {
         break;
     case "describeandrew":
         message.channel.sendMessage("AN INCREDIBLY KIND AND SWEET CUTIE THAT DESERVES EVERYTHING AMAZING AND IS THE BEST BF")
-        break;                    
+        break; 
+    case "commands":
+          var commands = new Discord.RichEmbed()
+              .setTitle("🐶 **Commands** 🐶")
+              .addField("```!gubber```", " ￼ ")
+              .addField("```!oceanman```", " ￼ ")
+              .addField("```!8ball```", " ￼ ")   
+              .addField("```List of things gubber will reply to: woof, lunax, joy, jay, amen and gaymen```", " ￼ ")
+              .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657253784387604/Lunax_dog_with_glasses.jpg")
+              .setColor(003366)
+          message.channel.sendEmbed(commands);
+          break;          
   }
 });
 
