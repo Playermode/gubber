@@ -89,7 +89,7 @@ client.on("message", function(message) {
 
 client.on('ready', function() {
     client.user.setGame("Trying to prevent my owner from falling"); 
-    client.user.setUsername("Gubber Bot");
+    client.user.setUsername("Gubber");
     console.log('Woof!');
 });
 
