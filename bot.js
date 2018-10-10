@@ -77,7 +77,12 @@ client.on("message", function(message) {
          var gubber9 = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657443668918273/image0.png")
          message.channel.sendEmbed(gubber9);
-         break;            
+         break;
+    case "gubber10":
+         var gubber10 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499701965106970664/image0.png")
+         message.channel.sendEmbed(gubber10);
+         break;          
     case "describeozzy":
         message.channel.sendMessage("The most amazing, cutest, most gorgeous, sweetest, caring, bf in the universe")
         break;
