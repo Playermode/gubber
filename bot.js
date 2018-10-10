@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "!";
-client.user.setActivity('Trying to prevent my owner from falling', { type: 'Playing' });
 
 
 var fortunes = [
@@ -89,6 +88,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() {
+    client.user.setActivity('Trying to prevent my owner from falling', { type: 'Playing' });
     client.user.setUsername("Gubber"); 
     console.log('Woof!');
 });
