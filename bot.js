@@ -30,7 +30,7 @@ client.on("message", function(message) {
       if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)])
       else message.channel.sendMessage("Please ask me an actual question");
       break;
-    case "ocean man":
+    case "oceanman":
         message.channel.sendMessage("Barks in OCEAN MAN TAKE ME BY THE HAND LEAD ME TO THE LAND THAT YOU UNDERSTAND")
         break;
     case "gubber":
@@ -42,7 +42,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Trying to prevent my owner from falling");
+    client.user.setGame("Trying to prevent my owner from falling the game");
     client.user.setUsername("Gubber");
     console.log('Woof!');
 });
