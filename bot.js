@@ -50,12 +50,15 @@ client.on("message", function(message) {
          break;
     case "describeozzy":
         message.channel.sendMessage("The most amazing, cutest, most gorgeous, sweetest, caring, bf in the universe")
-        break;          
+        break;
+    case "describeandrew":
+        message.channel.sendMessage("AN INCREDIBLY KIND AND SWEET CUTIE THAT DESERVES EVERYTHING AMAZING AND IS THE BEST BF")
+        break;                    
   }
 });
 
 client.on('ready', function() { 
-    client.user.setGame("Trying to prevent my owner from falling");
+    client.user.setGame("Woof!");
     client.user.setUsername("Gubber");
     console.log('Woof!');
 });
