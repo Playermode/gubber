@@ -37,7 +37,17 @@ client.on("message", function(message) {
          var gubber = new Discord.RichEmbed()
              .setImage("https://i.imgur.com/ZWNrGeS.png")
          message.channel.sendEmbed(gubber);
-         break;         
+         break;
+    case "gubber2":
+         var gubber2 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/332029226012246016/499315177976496129/image0.jpg")
+         message.channel.sendEmbed(gubber2);
+         break;   
+    case "gubber3":
+         var gubber3 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/332029226012246016/499315129632948234/image0.jpg")
+         message.channel.sendEmbed(gubber3);
+         break;          
   }
 });
 
