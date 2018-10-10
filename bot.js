@@ -87,8 +87,10 @@ client.on("message", function(message) {
   }
 });
 
-client.on('ready', function() { 
-    console.log('I am ready!');
+client.on('ready', function() {
+    client.user.setGame("trying to prevent my owner from falling");
+    client.user.setUsername("Gubber"); 
+    console.log('woof');
 });
 
 client.on('message', message => {
@@ -154,6 +156,12 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'WOOF') {
     	message.reply('**WOOFS IN HEY THATS MY LINE 😔**');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'joy') {
+    	message.reply('Joey to Joy!');
   	}
 });
 
