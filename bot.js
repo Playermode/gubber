@@ -14,10 +14,9 @@ var fortunes = [
 ];
 
 var dadjoke = [
-    "Why can’t two elephants go swimming? Because they only have one pair of trunks"
-    'You are portuguese right? No I am portugoose there is only one of me',
-    'You are wearing ur shoes on the wrong feet. But these are the only feet I have!',
-    'October 10th is 10/10'
+    "Why can’t two elephants go swimming? Because they only have one pair of trunks",
+    "You are portuguese right? No I am portugoose there is only one of me",
+    "You are wearing ur shoes on the wrong feet. But these are the only feet I have!"
 ];
 
 client.on("message", function(message) {
