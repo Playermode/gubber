@@ -11,7 +11,13 @@ var fortunes = [
     "WOOFS IN YES THATS THE BEST IDEA I HAVE HEARD IN MY LIFE",
     "Lunax says yes so I say yes",
     "Lunax says no so I say no"
-]; 
+];
+
+var dadjoke = [
+    "Why can’t two elephants go swimming? Because they only have one pair of trunks"
+    '"You're portuguese right?" "No im portugoose there is only one of me"',
+    '"you're wearing ur shoes on the wrong feet" "but these are the only feet i have!"'
+];
 
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
@@ -95,11 +101,16 @@ client.on("message", function(message) {
               .addField("```!gubber```", " ￼ ")
               .addField("```!oceanman```", " ￼ ")
               .addField("```!8ball```", " ￼ ")   
+              .addField("```!dadjokes```", " ￼ ")            
               .addField("```List of things gubber will reply to: woof, lunax, joy, jay, amen and gaymen```", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657253784387604/Lunax_dog_with_glasses.jpg")
               .setColor(003366)
           message.channel.sendEmbed(commands);
-          break;          
+          break;
+    case "dadjokes":
+      if (args[0]) message.channel.sendMessage(dadjoke[Math.floor(Math.random() * dadjoke.length)])
+      else message.channel.sendMessage("Woofs in funny");
+      break;          
   }
 });
 
