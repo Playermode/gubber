@@ -88,7 +88,50 @@ client.on("message", function(message) {
          var gubber10 = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499701965106970664/image0.png")
          message.channel.sendEmbed(gubber10);
-         break;        
+         break;
+    case "gubber11":
+         var gubber11 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223646198333450/image0.png")
+         message.channel.sendEmbed(gubber11);
+         break; 
+    case "gubber12":
+         var gubber12 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223671397580800/image0.png")
+         message.channel.sendEmbed(gubber12);
+         break; 
+    case "gubber13":
+         var gubber13 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223691366924288/image0.jpg")
+         message.channel.sendEmbed(gubber13);
+         break; 
+    case "gubber14":
+         var gubber14 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223691366924288/image0.jpg")
+         message.channel.sendEmbed(gubber14);
+         break; 
+    case "gubber15":
+         var gubber15 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223709465346068/image0.jpg")
+         message.channel.sendEmbed(gubber15);
+         break; 
+    case "gubber16":
+         var gubber16 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223746140078085/image0.jpg")
+         message.channel.sendEmbed(gubber16);
+         break; 
+    case "gubber17":
+         var gubber17 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223761986158602/image0.jpg")
+         message.channel.sendEmbed(gubber17);
+         break; 
+    case "gubber18":
+         var gubber18 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223786111926301/image0.jpg")
+         message.channel.sendEmbed(gubber18);
+         break;
+    case "gubber19":
+      message.channel.sendMessage("https://cdn.discordapp.com/attachments/498899341998686238/514223418590363648/video.mov")
+    break;           
     case "commands":
           var commands = new Discord.RichEmbed()
               .setTitle("🐶 **Commands** 🐶")
@@ -96,7 +139,7 @@ client.on("message", function(message) {
               .addField("```!oceanman```", " ￼ ")
               .addField("```!8ball```", " ￼ ")   
               .addField("```!dadjokes```", " ￼ ")            
-              .addField("```List of things gubber will reply to: woof, lunax, joy, jay, amen and gaymen```", " ￼ ")
+              .addField("```List of things gubber will reply to: woof, lunax, joy, jay, ly, amen and gaymen```", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657253784387604/Lunax_dog_with_glasses.jpg")
               .setColor(003366)
           message.channel.sendEmbed(commands);
@@ -216,5 +259,58 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'ly') {
+    	message.reply('woofs in dw ily2 ❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Ly') {
+    	message.reply('woofs in dw ily2 ❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'LY') {
+    	message.reply('WOOFS IN ILY2!!! ❤❤❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'ly gubber') {
+    	message.reply('woofs in ily2!!! ❤❤❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Ly gubber') {
+    	message.reply('woofs in ily2!!! ❤❤❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'LY gubber') {
+    	message.reply('woofs in ily2!!! ❤❤❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Ly Gubber') {
+    	message.reply('woofs in ily2!!! ❤❤❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'LY GUBBER') {
+    	message.reply('WOOFS IN ILY2!!! ❤❤❤');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'lY gubber') {
+    	message.reply('woofs in ily2!!! ❤❤❤');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
