@@ -210,5 +210,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Sky') {
+    	message.reply('shut up joafy');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'sky') {
+    	message.reply('shut up joafy');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
