@@ -88,13 +88,7 @@ client.on("message", function(message) {
          var gubber10 = new Discord.RichEmbed()
              .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499701965106970664/image0.png")
          message.channel.sendEmbed(gubber10);
-         break;          
-    case "describeozzy":
-        message.channel.sendMessage("The most amazing, cutest, most gorgeous, sweetest, caring, bf in the universe")
-        break;
-    case "describeandrew":
-        message.channel.sendMessage("AN INCREDIBLY KIND AND SWEET CUTIE THAT DESERVES EVERYTHING AMAZING AND IS THE BEST BF")
-        break; 
+         break;        
     case "commands":
           var commands = new Discord.RichEmbed()
               .setTitle("🐶 **Commands** 🐶")
