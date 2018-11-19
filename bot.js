@@ -101,7 +101,7 @@ client.on("message", function(message) {
          break; 
     case "gubber13":
          var gubber13 = new Discord.RichEmbed()
-             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514223691366924288/image0.jpg")
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/514227061099855881/image0.png")
          message.channel.sendEmbed(gubber13);
          break; 
     case "gubber14":
