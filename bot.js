@@ -152,7 +152,7 @@ client.on("message", function(message) {
 });
 
 client.on('ready', function() {
-    client.user.setGame("trying to prevent my owner from falling");
+    client.user.setGame("Being an icon");
     client.user.setUsername("Gubber"); 
     console.log('woof');
 });
