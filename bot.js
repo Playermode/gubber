@@ -426,19 +426,19 @@ client.on('message', message => {
     
 client.on('message', message => {
     if (message.content === 'bacon') {
-    	message.reply('leo is real');
+    	message.reply('woofs in leo is real');
   	}
 });
     
 client.on('message', message => {
     if (message.content === 'Bacon') {
-    	message.reply('Leo is real');
+    	message.reply('Woofs in Leo is real');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'BACON') {
-    	message.reply('LEO IS REAL!');
+    	message.reply('WOOFS IN LEO IS REAL!');
   	}
 });
 // THIS  MUST  BE  THIS  WAY
