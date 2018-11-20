@@ -20,8 +20,9 @@ var dadjoke = [
 ];
 
 var skyquote = [
-    "blank spaceTM”,
-    "Ghost message that Playermode sees in notifications”,
+    ".",
+    "blank spaceTM",
+    "Ghost message that Playermode sees in notifications",
     "Lmao”,
     "Keyboard slaMJAMTKSKFKGKSLFKKDAKKFKV”,
     "My art is good sometimes”,
