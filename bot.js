@@ -25,7 +25,17 @@ client.on("message", function(message) {
   if (message.content === "gubber") {
     const gubberthegod = client.emojis.get("499405655485055004");                                 
     message.react("499405655485055004");
-}     
+}
+    
+  if (message.content === "woof") {
+    const gubberthegod = client.emojis.get("499405655485055004");                                 
+    message.react("499405655485055004");
+}
+
+  if (message.content === "pensive") {
+    const gubberthegod = client.emojis.get("513427115362746407");                                 
+    message.react("513427115362746407");
+}      
 
   if (!message.content.startsWith(PREFIX)) return;
 
