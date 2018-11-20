@@ -33,7 +33,13 @@ var skyquote = [
     "yeah im awesome",
     "omg my legs are so pretty",
     "I LOOK SO GOOD",
-    "~~👀sneoplearerealfguhdgd~~"
+    "~~👀sneoplearerealfguhdgd~~",
+    "GO DRINK LAVA",
+    "ROSE HAS KNEES",
+    "yeah but i didnt care abt you then",
+    "I TOTALLY FORGOT ABT YOU",
+    "OMG GIANT EYES",
+    "u cant hear thatr"
 ];
 
 var when = [
