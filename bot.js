@@ -28,7 +28,7 @@ var skyquote = [
     "My art is good sometimes”,
     "OMG IS THAT THE COOKIE MONSTER”,
     "Ahem I'm pretty cool",
-    "how are we friends”,
+    "how are we friends",
     "IMMA REAL BOY YOU AREN'T YOU'RE A WOMAN",
     "yeah im awesome",
     "omg my legs are so pretty",
