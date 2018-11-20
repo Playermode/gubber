@@ -117,6 +117,14 @@ client.on("message", function(message) {
     message.react("499405655485055004");
 }
 
+  if (message.content === "leo") {                               
+    message.react("🔥");
+}
+
+  if (message.content === "Leo") {                               
+    message.react("🔥");
+}
+
   if (message.content === "pensive") {
     const gubberthegod = client.emojis.get("513427115362746407");                                 
     message.react("513427115362746407");
