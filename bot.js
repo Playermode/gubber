@@ -465,5 +465,23 @@ client.on('message', message => {
     	message.reply('WOOFS IN LEO IS REAL!');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'bea') {
+    	message.reply('Woofs in a good egg!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Bea') {
+    	message.reply('Woofs in a good egg!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'BEA') {
+    	message.reply('WOOFS IN SHES A GOOD EGG!');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
