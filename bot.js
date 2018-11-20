@@ -37,7 +37,7 @@ var skyquote = [
 ];
 
 var when = [
-    "Probs Tomorrow",
+    "Probably Tomorrow",
     "Yesterday :madman:",
     "In one hour",
     "In two hours",
