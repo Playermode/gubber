@@ -19,6 +19,91 @@ var dadjoke = [
     "You are wearing ur shoes on the wrong feet. But these are the only feet I have!"
 ];
 
+var skyquote = [
+    ".”,
+    "blank spaceTM”,
+    "Ghost message that Playermode sees in notifications”,
+    "Lmao”,
+    "Keyboard slaMJAMTKSKFKGKSLFKKDAKKFKV”,
+    "My art is good sometimes”,
+    "OMG IS THAT THE COOKIE MONSTER”,
+    "Ahem I'm pretty cool”,
+    "how are we friends”,
+    "IMMA REAL BOY YOU AREN'T YOU'RE A WOMAN",
+    "yeah im awesome",
+    "omg my legs are so pretty",
+    "I LOOK SO GOOD",
+    "~~👀sneoplearerealfguhdgd~~"
+];
+
+var when = [
+    "Probs Tomorrow",
+    "Yesterday :madman:",
+    "In one hour",
+    "In two hours",
+    "In three hours",
+    "In four hours",
+    "In five hours",
+    "In six hours",
+    "In seven hours",
+    "In eight hours",
+    "In nine hours",
+    "In ten hours",
+    "In eleven hours",
+    "In twelve hours",
+    "In thirteen hours",
+    "In fourteen hours",
+    "In sixteen hours",
+    "In eighteen hours",
+    "In nineteen hours",
+    "In twenty hours",
+    "In twenty one hours",
+    "In twenty two hours",
+    "In twenty three hours",
+    "In twenty four hours",
+    "When pengur releases",
+    "At 11:69pm",
+    "At 11:61pm",
+    "At 4:01am",
+    "In one day",
+    "In two days",
+    "In three days",
+    "In four days",
+    "In five days",
+    "In six days",
+    "In seven days",
+    "In eight days",
+    "In nine days",
+    "In ten days",
+    "Right now",
+    "In 1 year",
+    "In 2 years",
+    "In 3 years",
+    "In 4 years",
+    "In 5 years",
+    "In 6 years",
+    "In 7 years",
+    "In 8 years",
+    "In 9 years",
+    "In 10 years",
+    "In 50 years",
+    "In 20 years",
+    "In 10 years",
+    "In 100 years",
+    "In 80 years",
+    "In 71 years",
+    "In 34 years",
+    "In 40 years",
+    "In 30 years",
+    "In 900 years",
+    "When someone in a certain group chat doesn't insult themself",
+    "When Steven Universe has a consistent schedule that you don't have to wait months for a single episode",
+    "When Luna and Playermode like food so basically never",
+    "When Sky admits to her art being amazing",
+    'When Joey finds out where "Joey to Joy!" came from so probably never',
+    "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
@@ -46,9 +131,22 @@ client.on("message", function(message) {
       if (args[1]) message.channel.sendMessage(fortunes[Math.floor(Math.random() * fortunes.length)])
       else message.channel.sendMessage("Please ask me an actual question");
       break;
+    case "when":
+      if (args[1]) message.channel.sendMessage(when[Math.floor(Math.random() * when.length)])
+      else message.channel.sendMessage("Please actually ask for something");
+      break;
+    case "lundab":
+        var lundab = new Discord.RichEmbed()
+            .setImage("https://cdn.discordapp.com/attachments/391980593115693056/411678723998482434/Lunax.jpg")
+        message.channel.sendEmbed(lundab);
+        break;          
     case "oceanman":
         message.channel.sendMessage("Barks in OCEAN MAN TAKE ME BY THE HAND LEAD ME TO THE LAND THAT YOU UNDERSTAND")
         break;
+    case "skyquote":
+    if (args[0]) message.channel.sendMessage(skyquote[Math.floor(Math.random() * skyquote.length)])
+    else message.channel.sendMessage("Error unable to execute command, please try again later!");
+    break;
     case "gubber":
          var gubber = new Discord.RichEmbed()
              .setImage("https://i.imgur.com/ZWNrGeS.png")
