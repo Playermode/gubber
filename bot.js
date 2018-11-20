@@ -24,7 +24,7 @@ var skyquote = [
     "blank spaceTM",
     "Ghost message that Playermode sees in notifications",
     "Lmao",
-    "Keyboard slaMJAMTKSKFKGKSLFKKDAKKFKV”,
+    "Keyboard slaMJAMTKSKFKGKSLFKKDAGFDKNfd",
     "My art is good sometimes",
     "OMG IS THAT THE COOKIE MONSTER”,
     "Ahem I'm pretty cool",
