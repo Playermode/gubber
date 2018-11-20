@@ -110,6 +110,11 @@ var when = [
     "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png"
 ];
 
+var coin = [
+    "Heads",
+    "Tails"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
@@ -150,7 +155,12 @@ client.on("message", function(message) {
   if (message.content === "pensive") {
     const gubberthegod = client.emojis.get("513427115362746407");                                 
     message.react("513427115362746407");
-}      
+}
+
+  if (message.content === "listemojis") {
+    const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
+    message.channel.send(emojiList);     
+}        
 
   if (!message.content.startsWith(PREFIX)) return;
 
@@ -177,6 +187,10 @@ client.on("message", function(message) {
     if (args[0]) message.channel.sendMessage(skyquote[Math.floor(Math.random() * skyquote.length)])
     else message.channel.sendMessage("Error unable to execute command, please try again later!");
     break;
+    case "coinflip":
+    if (args[0]) message.channel.sendMessage(coin[Math.floor(Math.random() * coin.length)])
+    else message.channel.sendMessage("Egg yourself");
+    break; 
     case "gubber":
          var gubber = new Discord.RichEmbed()
              .setImage("https://i.imgur.com/ZWNrGeS.png")
