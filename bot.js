@@ -143,7 +143,7 @@ client.on("message", function(message) {
     case "oceanman":
         message.channel.sendMessage("Barks in OCEAN MAN TAKE ME BY THE HAND LEAD ME TO THE LAND THAT YOU UNDERSTAND")
         break;
-    case "skyquote":
+    case "skyquotes":
     if (args[0]) message.channel.sendMessage(skyquote[Math.floor(Math.random() * skyquote.length)])
     else message.channel.sendMessage("Error unable to execute command, please try again later!");
     break;
