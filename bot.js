@@ -422,16 +422,19 @@ client.on('message', message => {
     if (message.content === 'lY gubber') {
     	message.reply('woofs in ily2!!! ❤❤❤');
   	}
+});
     
 client.on('message', message => {
     if (message.content === 'bacon') {
     	message.reply('leo is real');
   	}
+});
     
 client.on('message', message => {
     if (message.content === 'Bacon') {
     	message.reply('Leo is real');
   	}
+});
 
 client.on('message', message => {
     if (message.content === 'BACON') {
