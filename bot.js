@@ -20,7 +20,6 @@ var dadjoke = [
 ];
 
 var skyquote = [
-    ".”,
     "blank spaceTM”,
     "Ghost message that Playermode sees in notifications”,
     "Lmao”,
