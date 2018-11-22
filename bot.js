@@ -110,6 +110,33 @@ var when = [
     "https://cdn.discordapp.com/attachments/386610342077267968/431265212105097236/unknown.png"
 ];
 
+var job = [
+    "Egg Janitor",
+    "Egg Doctor",
+    "Egg Officer",
+    "Egg Mayor",
+    "Egg Deputy",
+    "Egg FBI",
+    "Egg Pizza Chef",
+    "Egg Police Officer",
+    "Egg President",
+    "Egg Admin",
+    "Egg Mod",
+    "A Great Egg!!!! Woofs in *well thats just in my personal opinion but its more of a fact than opinion*",
+    "Good egg",
+    "Egg Vice President",
+    "Egg Accountant",
+    "Egg Ludge",
+    "Egg Lawyer",
+    "Egg",
+    "Homeless Egg",
+    "Shrek",
+    "Egg Scientist",
+    "Egg Animator",
+    "Egg Artist",
+    "Egg Discord Bot Developer"
+];
+
 var coin = [
     "Heads",
     "Tails"
@@ -220,6 +247,10 @@ client.on("message", function(message) {
     case "coinflip":
     if (args[0]) message.channel.sendMessage(coin[Math.floor(Math.random() * coin.length)])
     else message.channel.sendMessage("Egg yourself");
+    break;
+    case "eggjobs":
+    if (args[0]) message.channel.sendMessage(job[Math.floor(Math.random() * job.length)])
+    else message.channel.sendMessage("Error command failed.");
     break; 
     case "gubber":
          var gubber = new Discord.RichEmbed()
