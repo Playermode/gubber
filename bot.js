@@ -126,7 +126,7 @@ var job = [
     "Good egg",
     "Egg Vice President",
     "Egg Accountant",
-    "Egg Ludge",
+    "Egg Judge",
     "Egg Lawyer",
     "Egg",
     "Homeless Egg",
