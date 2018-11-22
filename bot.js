@@ -344,7 +344,20 @@ client.on("message", function(message) {
          break;
     case "gubber19":
       message.channel.sendMessage("https://cdn.discordapp.com/attachments/498899341998686238/514223418590363648/video.mov")
-    break;           
+    break; 
+    case "gubber20":
+      message.channel.sendMessage("https://cdn.discordapp.com/attachments/498899341998686238/515276702843404288/video.mov")
+    break;
+    case "gubber21":
+         var gubber21 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/515277023120457739/image0.png")
+         message.channel.sendEmbed(gubber21);
+         break;
+    case "gubber22":
+         var gubber22 = new Discord.RichEmbed()
+             .setImage("https://cdn.discordapp.com/attachments/498899341998686238/515277067403919360/image0.png")
+         message.channel.sendEmbed(gubber22);
+         break;     
     case "commands":
           var commands = new Discord.RichEmbed()
               .setTitle("🐶 **Commands** 🐶")
@@ -461,6 +474,12 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'Lunax') {
     	message.reply('Tragic shes gonna fall');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'LUNAX') {
+    	message.reply('Ocean man, take me by the hand, lead me to the land that you understand Ocean man, the voyage to the corner of the globe is a real trip  Ocean man, the crust of a tan man imbibed by the sand  Soaking up the thirst of the land Ocean man');
   	}
 });
 
