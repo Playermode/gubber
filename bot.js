@@ -597,5 +597,23 @@ client.on('message', message => {
     	message.reply('TO JOY!!!');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'gab') {
+    	message.reply('cat are liquid, dog are solid');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Gab') {
+    	message.reply('cat are liquid, dog are solid');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'GAB') {
+    	message.reply('cat are liquid, dog are solid');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
