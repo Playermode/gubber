@@ -42,6 +42,33 @@ var skyquote = [
     "u cant hear thatr"
 ];
 
+var lunaquote = [
+    "I LOVE FOOT",
+    "I am god",
+    "Gubber is god",
+    "episode 1 of the gays confusing me",
+    "episode 200 of the straights confusing me yet again",
+    "LMAO OH BOY SDHKJSDLHSD",
+    "whenever the straights try to relate with the gays  it’s just a big mess",
+    '"wHy aRe U liVing ON a fArm iN 2018"',
+    "ladies and gaymen: Imagine testing ur mcm and ur head over heals with him, but he sends this message",
+    "i added slender man so i can egg sky again",
+    "i like memes",
+    "HAPPY BIRTHDAY OBAMA",
+    "b i g e g g",
+    "poop in my shoe",
+    "be quirt ~ skystone",
+    "SHE HAS BIG EGG",
+    "LunaxRuinsChildhoodsYourReallyPicky",
+    '"you breathed?? smh you shouldve made a friends role instead"',
+    "The ghost of ruined childhoods",
+    "ur sister is an icon",
+    '"SMASHING"',
+    'what kind of ritutal',
+    "Be spongebob OR SANDY",
+    "https://cdn.discordapp.com/attachments/332029226012246016/515582319751462912/image.png"
+];
+
 var when = [
     "Probably Tomorrow",
     "Yesterday :madman:",
@@ -242,6 +269,10 @@ client.on("message", function(message) {
         break;
     case "skyquotes":
     if (args[0]) message.channel.sendMessage(skyquote[Math.floor(Math.random() * skyquote.length)])
+    else message.channel.sendMessage("Error unable to execute command, please try again later!");
+    break;
+    case "lunaquotes":
+    if (args[0]) message.channel.sendMessage(lunaquote[Math.floor(Math.random() * lunaquote.length)])
     else message.channel.sendMessage("Error unable to execute command, please try again later!");
     break;
     case "coinflip":
