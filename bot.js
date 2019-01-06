@@ -169,6 +169,52 @@ var coin = [
     "Tails"
 ];
 
+var whodidit = [
+    "I don't know go ask gab, he holds the answer to everything",
+    "Playermode",
+    "Eggmode",
+    "Gab",
+    "Gubber",
+    "Mayor of Gubber Town",
+    "Its Bea",
+    "Its Bead",
+    "The your to your the",
+    "Nollie",
+    "Matt13",
+    "Sin (Az)",
+    "Kurra",
+    "https://twitter.com/GubberTheGod",
+    "Bag2006 (gab's brother)",
+    "The ghost of eggmas past",
+    "The locobat company",
+    "the mo-gang (play on mojang you uncultured swine)",
+    "No you did it you big eggrona why did you even ask",
+    "I don't know go ask gab, he holds the answer to everything",
+    "Arcuness",
+    "The egg janitor",
+    "The egg president",
+    "Luna",
+    "Winterii",
+    "Lovebacon56",
+    "Luna & Winterii",
+    "Luna, Winterii & Bacon",
+    "Vert",
+    "Eggmode",
+    "Horsii",
+    "SC1 Sam",
+    "Parly Dogs",
+    "Egg dogs!11!!",
+    "Shaz",
+    "TypicalLlamaJoey",
+    "Eggplanet",
+    "Zeyh",
+    "Sidious",
+    "Matt555666",
+    "nice555666",
+    "Jay",
+    "Leo V"
+];
+
 client.on("message", function(message) {
   if (message.author.equals(client.user)) return;
   
@@ -399,7 +445,8 @@ client.on("message", function(message) {
               .addField("```!when```", " ￼ ")
               .addField("```!skyquote```", " ￼ ") 
               .addField("```!lundab```", " ￼ ") 
-              .addField("```!eggjobs ```", " ￼ ")             
+              .addField("```!eggjobs```", " ￼ ") 
+              .addField("```!whodidit```", " ￼ ")             
               .addField("```List of things gubber will reply to: woof, lunax, joy, jay, ly, amen and gaymen```", " ￼ ")
               .setImage("https://cdn.discordapp.com/attachments/498899341998686238/499657253784387604/Lunax_dog_with_glasses.jpg")
               .setColor(003366)
@@ -408,7 +455,11 @@ client.on("message", function(message) {
     case "dadjokes":
       if (args[0]) message.channel.sendMessage(dadjoke[Math.floor(Math.random() * dadjoke.length)])
       else message.channel.sendMessage("Woofs in funny");
-      break;          
+      break;
+    case "whodidit":
+    if (args[1]) message.channel.sendMessage(whodidit[Math.floor(Math.random() * whodidit.length)])
+    else message.channel.sendMessage("Please have some text after !whodidit. Ex. !whodidit Who egged me 😔");
+    break;          
   }
 });
 
