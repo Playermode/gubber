@@ -697,5 +697,11 @@ client.on('message', message => {
     	message.reply('cat are liquid, dog are solid');
   	}
 });
+
+client.on('message', message => {
+    if (message.content === 'alive') {
+    	message.reply('yes i am alive');
+  	}
+});
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
