@@ -251,6 +251,46 @@ client.on("message", function(message) {
   if (message.content === "WOOFS IN LEO IS REAL!") {                               
     message.react("🔥");
 }
+    
+  if (message.content === "pensive") {
+    const gubberthegod = client.emojis.get("513427115362746407");                                 
+    message.react("513427115362746407");
+}
+
+  if (message.content === "listemojis") {
+    const emojiList = message.guild.emojis.map(e=>e.toString()).join(" ");
+    message.channel.send(emojiList);     
+}
+
+  if (message.content === "jeoy") {
+    const gubberthegod = client.emojis.get("514977702755696656");                                 
+    message.react("514977702755696656");
+}
+
+  if (message.content === "Jeoy") {
+    const gubberthegod = client.emojis.get("514977702755696656");                                 
+    message.react("514977702755696656");
+}
+
+  if (message.content === "JEOY") {
+    const gubberthegod = client.emojis.get("514977702755696656");                                 
+    message.react("514977702755696656");
+}              
+
+  if (message.content === "jEoy") {
+    const gubberthegod = client.emojis.get("514977702755696656");                                 
+    message.react("514977702755696656");
+}
+
+  if (message.content === "jeOy") {
+    const gubberthegod = client.emojis.get("514977702755696656");                                 
+    message.react("514977702755696656");
+}    
+
+  if (message.content === "jeoY") {
+    const gubberthegod = client.emojis.get("514977702755696656");                                 
+    message.react("514977702755696656");
+}      
 
   if (!message.content.startsWith(PREFIX)) return;
 
