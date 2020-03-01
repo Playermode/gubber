@@ -658,19 +658,19 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'bea') {
-    	message.reply('Woofs in a good egg!');
+    	message.reply('Woofs in bad egg!');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'Bea') {
-    	message.reply('Woofs in a good egg!');
+    	message.reply('Woofs in bad egg!');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'BEA') {
-    	message.reply('WOOFS IN SHES A GOOD EGG!');
+    	message.reply('WOOFS IN SHES A BAD EGG!');
   	}
 });
 
